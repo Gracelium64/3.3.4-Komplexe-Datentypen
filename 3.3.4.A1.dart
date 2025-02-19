@@ -17,7 +17,7 @@ void main() {
 
 Map<int, bool> n = {c[2]: b[2]};
 
-List<int> e = [a[10] * d[1]];
+List<int> e = [a[1] * d[1]];
 
 print("a: $a");
 print("b: $b");
