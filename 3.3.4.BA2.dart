@@ -45,11 +45,15 @@ List<List<List<Map<String, int>>>> myList = [
 
 
 
-  String num1 = "${myList[0][1][0]["Beta"]}";
-  String num2 = "${myList[3][1][0]["Beta"]}";
-print(int.parse(num1) + int.parse(num2) - 3);
-
 // print(myList[0][1][0]["Beta"]! + myList[3][1][0]["Beta"]! - 3);
+
+//   String num1 = "${myList[0][1][0]["Beta"]}";
+//   String num2 = "${myList[3][1][0]["Beta"]}";
+// print(int.parse(num1) + int.parse(num2) - 3);
+
+  int NUM1 = myList[0][1][0]["Beta"]!;
+  int NUM2 = myList[3][1][0]["Beta"]!;
+print(NUM1 + NUM2 - 3);
 
 
 }
