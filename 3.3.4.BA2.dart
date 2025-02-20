@@ -42,11 +42,13 @@ List<List<List<Map<String, int>>>> myList = [
       ],
     ],
   ];
-// print(myList[0][1][0]["Beta"]! + myList[3][1][0]["Beta"]! - 3);
+// print(myList[0][0][0]["Alpha"]! + myList[1][0][0]["Alpha"]! + myList[2][0][0]["Alpha"]! - myList[0][1][0]["Beta"]!);
 
-//   String num1 = "${myList[0][1][0]["Beta"]}";
-//   String num2 = "${myList[3][1][0]["Beta"]}";
-// print(int.parse(num1) + int.parse(num2) - 3);
+//   String num1 = "${myList[0][0][0]["Alpha"]}";
+//   String num2 = "${myList[1][0][0]["Alpha"]}";
+//   String num3 = "${myList[2][0][0]["Alpha"]}";
+//   String num4 = "${myList[0][1][0]["Beta"]}";
+// print(int.parse(num1) + int.parse(num2) + int.parse(num3) - int.parse(num4));
 
   int NUM1 = myList[0][0][0]["Alpha"]!;
   int NUM3 = myList[1][0][0]["Alpha"]!;
