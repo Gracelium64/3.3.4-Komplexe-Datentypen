@@ -3,15 +3,15 @@ void main(){
 List<List<List<Map<String, int>>>> myList = [
     [
       [
-        {"Alpha": 24},
+        {"Alpha": 24}, //
       ],
       [
-        {"Beta": 25},
+        {"Beta": 25}, ///
       ],
     ],
     [
       [
-        {"Alpha": 34},
+        {"Alpha": 34}, //
       ],
       [
         {"Beta": 35},
@@ -19,7 +19,7 @@ List<List<List<Map<String, int>>>> myList = [
     ],
     [
       [
-        {"Alpha": 44},
+        {"Alpha": 44}, //
       ],
       [
         {"Beta": 45},
@@ -42,18 +42,17 @@ List<List<List<Map<String, int>>>> myList = [
       ],
     ],
   ];
-
-
-
 // print(myList[0][1][0]["Beta"]! + myList[3][1][0]["Beta"]! - 3);
 
 //   String num1 = "${myList[0][1][0]["Beta"]}";
 //   String num2 = "${myList[3][1][0]["Beta"]}";
 // print(int.parse(num1) + int.parse(num2) - 3);
 
-  int NUM1 = myList[0][1][0]["Beta"]!;
-  int NUM2 = myList[3][1][0]["Beta"]!;
-print(NUM1 + NUM2 - 3);
+  int NUM1 = myList[0][0][0]["Alpha"]!;
+  int NUM3 = myList[1][0][0]["Alpha"]!;
+  int NUM2 = myList[2][0][0]["Alpha"]!;
+  int NUM4 = myList[0][1][0]["Beta"]!;
+print(NUM1 + NUM2 + NUM3 - NUM4);
 
 
 }
