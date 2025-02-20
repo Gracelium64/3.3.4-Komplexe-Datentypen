@@ -42,7 +42,10 @@ List<List<List<Map<String, int>>>> myList = [
       ],
     ],
   ];
-// print(myList[0][0][0]["Alpha"]! + myList[1][0][0]["Alpha"]! + myList[2][0][0]["Alpha"]! - myList[0][1][0]["Beta"]!);
+print(myList[0][0][0]["Alpha"]! + 
+      myList[1][0][0]["Alpha"]! + 
+      myList[2][0][0]["Alpha"]! - 
+      myList[0][1][0]["Beta"]!);
 
 //   String num1 = "${myList[0][0][0]["Alpha"]}";
 //   String num2 = "${myList[1][0][0]["Alpha"]}";
